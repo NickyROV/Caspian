@@ -1,7 +1,7 @@
 # Caspian
 Caspian stems from England, but means “from Qazvin, Iran.” It’s the name of the salty sea located between Asia and Europe. The Caspian Sea is the world's largest Inland body of water, often described as the largest lake or a full-fledged sea.
 
-Caspian is 4-DOF ROV with 2-3 claw, 6 Channel RC1 to control ROV ans 6 Channel RC2 as robotic arm control. It can easily be upgraded by adding more channels to MEGA and add functional call in corresponding Arduino program)
+Caspian is 4-DOF ROV with 2-3 claw, 6 Channel RC1 to control ROV and 6 Channel RC2 as robotic arm control. It can easily be upgraded by adding more channels to MEGA and add functional call in corresponding Arduino program.
 
 Top-side and on-board control hardware : Arduino MEGA
 
