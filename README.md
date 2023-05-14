@@ -19,3 +19,7 @@ RC Verification Indicator - When data communication checked between RC (2 units)
 Tether Communication Acknowledge - Underwater electronic control (MEGA) send Acknowledge signal when received data package Checked. Methodology - Top-side MEGA pack data in <DATA><DATA>...<DATA> format and terminated with line feed character -> Underwater MEGA un-pack, check and once reach lind feed, Acknowledge "A" will be sent to top-side -> Top-side MEGA pick up "A" as confirmation of transmision.
 
 Media - UART
+  
+ 
+#WatchDog
+When communication lost between RC unit and top-side electronic device, it keeps checking Digital_IN for incoming signal and takes a much longer reading time to complete, and during this control cycle, pilot lost control as device busy with something else. WatchDog (WDG) can be employed to reset the system if timeout signal don't get refresh before reset, this will stop electronic looping in reading cycle, but it certainly won't help to re-establish the RC and top-side electronic commuication.
