@@ -1,7 +1,7 @@
 /*************************************************************************************
  *Author : Nicky Lam 
  *Date : 09 May 2023
- *Description : ROV control by two 6-channel RC Control (Transmitting side)
+ *Description : ROV control by two 6-channel RC Control (Transmitting / TOP side)
  *Hardware : Arduino MEGA
  *Radio Control 1 : 6 Channel (ROV)
  *RC1C1-Sway, RC1C2-Surge, RC1C3-Heave, RC1C4-Yaw, RC1C5-LED, RC1C6-Middle Claw
